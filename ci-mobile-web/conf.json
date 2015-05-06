@@ -1,5 +1,5 @@
 {
-    "src":          "/Users/zengming/Dropbox/work/51offer_share/code/ci-app-web/public/",
+    "src":          "./public/",
     "dest":         "qiniu:access_key=Y9oTYQAnabvkNssXY1bqcKPLlnQOGhjkI6EJMaqV&secret_key=etiWKfjk16jOXoQ3_D9BUcyXJbNKwmJmj1LaIJk3&bucket=web-51offer",
     "deletable":    0,
     "debug_level":  1
