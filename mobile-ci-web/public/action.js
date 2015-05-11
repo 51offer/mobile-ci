@@ -10,7 +10,8 @@ $(function() {
             for (version_idx in config["pub"]) {
                 var version = config["pub"][version_idx];
                 var sortname = version.replace(".", "v");
-                var li_html = "<li class='list-group-item'><a href='https://fir.im/51offeri" + sortname + "'>" + version + "</a></li>"
+               // var li_html = "<li class='list-group-item'><a href='https://fir.im/51offeri" + sortname + "'>" + version + "</a></li>"
+               var li_html = "<li class='list-group-item'><a href='https://fir.im/51offeripub" + "'>" + version + "</a></li>"
                 $("#" + app_id + "_pub").append(li_html);
             }
         };
